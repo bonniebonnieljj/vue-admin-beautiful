@@ -484,6 +484,7 @@ VueRouter.prototype.push = function push(location, onResolve, onReject) {
 }; */
 
 export function resetRouter() {
+  // TODO matcher是什么原理
   router.matcher = new VueRouter({
     base: publicPath,
     mode: routerMode,

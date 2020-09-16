@@ -14,7 +14,8 @@ if (process.env.NODE_ENV === "production") {
 }
 
 Vue.config.productionTip = false;
-
+// TODO
+console.log("App是什么？", App, "render里面做了哪些处理?");
 new Vue({
   el: "#vue-admin-beautiful",
   router,

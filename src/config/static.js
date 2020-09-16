@@ -6,6 +6,7 @@ import Mock from "mockjs";
 import { paramObj } from "@/utils";
 
 const mocks = [];
+// TODO require.context 用法
 const files = require.context("../../mock/controller", false, /\.js$/);
 
 files.keys().forEach((key) => {
