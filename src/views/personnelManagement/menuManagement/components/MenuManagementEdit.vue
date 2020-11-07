@@ -51,6 +51,7 @@
       },
       close() {
         this.$refs["form"].resetFields();
+        // TODO
         this.form = this.$options.data().form;
         this.dialogFormVisible = false;
       },

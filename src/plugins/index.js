@@ -1,6 +1,8 @@
 /* 公共引入,勿随意修改,修改时需经过确认 */
 import Vue from "vue";
+// 声明使用elementui
 import "./element";
+//
 import "./support";
 import "@/styles/vab.scss";
 import "@/remixIcon";

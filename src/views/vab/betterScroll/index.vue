@@ -56,6 +56,7 @@
         this.BS.scrollToElement(`#bs-item-${n}`, this.time);
       },
       scrollInit() {
+        // TODO
         this.BS = new BScroll(this.$refs["wrapper"], {
           mouseWheel: true,
           scrollbar: {
@@ -66,6 +67,7 @@
       },
       scrollDestroy() {
         if (this.BS) {
+          // TODO
           this.BS.destroy();
         }
       },
